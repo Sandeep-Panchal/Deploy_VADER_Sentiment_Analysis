@@ -1,0 +1,51 @@
+<!doctype html>
+
+<html>
+
+<head>
+<title>VADER Sentiment Analysis</title>
+</head>
+
+<body style = 'background-image: url(https://www.xmple.com/wallpaper/solid-color-one-colour-single-plain-orange-1280x720-c-f0cbab-f-24.svg)'>
+<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
+<h1 style = 'background-color: orange; text-align:center'>VADER Sentiment Analysis</h1>
+
+<p style = "font-size:105%" ><strong>'VADER Sentiment Analyzer'</strong> takes in the text of the user and predicts whether a entered text is a <mark><strong>Positive</strong></mark>, <mark><strong>Negative</strong></mark> or <mark><strong>Neutral</strong></mark>.</p>
+<p style = 'font-size:105%'>Prediction of the entered text is based on the package<a href = 'https://pypi.org/project/vaderSentiment/'>VADER Sentiment Analyzer</a>. You can visit the blog <a href = 'https://medium.com/analytics-vidhya/sentiment-analysis-with-vader-label-the-unlabeled-data-8dd785225166'>Sentiment Analysis with VADER- Label the Unlabelled Data</a> that I have written.</p>
+<p style = 'font-size:105%'>The main purpose of this project is to learn the <strong>deployment in AWS EC2 Instance</strong>. Hence, I have used the package. Soon, I will come up with some predictive model on sentiment analysis :)</p>
+<p style = 'font-size:105%'><mark>This is not for any business purpose. This is <strong>'strictly'</strong> for a <strong>'learning'</strong> purpose.</mark></p>
+
+<h3> Please enter the text in the the below box.</h3>
+
+<form action = "{{url_for('Predict')}}" method = "post">
+
+<textarea style = "font-size:105%" name = 'message' rows = '10' cols = '60'> </textarea>
+<br><br>
+<input type = 'submit' class = 'btn-info' value = 'Predict', style='margin-left: 398px;'>
+
+<br>
+<hr>
+
+<h2 style = 'background-color:orange; text-align:center'> Prediction of the Entered Text. </h2>
+
+	
+	<h2> 
+		Text Sentiment:
+		{% if sentiment == 1 %}
+		<mark style = "background-color:green"> Positive </mark>
+		{% elif sentiment == 2 %}
+		<mark style = "background-color:white"> Neutral </mark>
+		{% elif sentiment == 3 %}
+		<mark style = "background-color:red"> Negative </mark>
+		{% endif %}
+		
+		<br><br>
+			Neutral Score: <mark>{{neutral_scr}}</mark>
+		<br>
+			Positive Score: <mark>{{positive_scr}}</mark>
+		<br>
+			Negative Score: <mark>{{negative_scr}}</mark>
+	</h2>
+
+</body>
+</html>
