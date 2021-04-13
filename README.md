@@ -8,13 +8,13 @@ Please visit the blog on [VADER](https://medium.com/analytics-vidhya/sentiment-a
 **Sentiment Analysis** is about analyzing the sentiment of the text ie if the given text is *Positive* or *Negative* or even *Neutral*.<br>
 This repository is all about deployed project of the **VADER Sentiment Analysis** which takes any contextual text as an input and outputs if the user entered text is *Positive*, *Negative* or *Neutral* based on the *Compound* Score condition.<br>
 You can refer to how one can apply condition and leverage the threshold score to lable the text as *Positive*, *Negative* or *Neutral* from the blog
-[VADER](https://medium.com/analytics-vidhya/sentiment-analysis-with-vader-label-the-unlabeled-data-8dd785225166)
+[VADER1](https://medium.com/analytics-vidhya/sentiment-analysis-with-vader-label-the-unlabeled-data-8dd785225166)
 
 <br>
 * References for VADER:
-  * https://pypi.org/project/vaderSentiment/
-  * https://www.udemy.com/share/101WNABEYTcVxUQX4=/
-  * https://github.com/cjhutto/vaderSentiment#about-the-scoring
+  1. https://pypi.org/project/vaderSentiment/
+  2. https://www.udemy.com/share/101WNABEYTcVxUQX4=/
+  3. https://github.com/cjhutto/vaderSentiment#about-the-scoring
 <br>
 
 <h1>Deployment in AWS EC2 Instance</h1>
@@ -23,5 +23,5 @@ This project is deployed in AWS EC2 Instance with *Free Tier*. You can test the 
 
 <br>
 * References for Deployment:
-  * https://www.youtube.com/watch?v=oOqqwYI60FI&list=PLZoTAELRMXVOAvUbePX1lTdxQR8EY35Z1&index=4&ab_channel=KrishNaik
-  * https://medium.com/analytics-vidhya/sentiment-analysis-with-vader-label-the-unlabeled-data-8dd785225166
+  1. https://www.youtube.com/watch?v=oOqqwYI60FI&list=PLZoTAELRMXVOAvUbePX1lTdxQR8EY35Z1&index=4&ab_channel=KrishNaik
+  2. https://medium.com/analytics-vidhya/sentiment-analysis-with-vader-label-the-unlabeled-data-8dd785225166
