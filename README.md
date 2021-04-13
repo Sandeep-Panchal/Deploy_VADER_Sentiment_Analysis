@@ -2,7 +2,7 @@
 
 VADER stands for ‘Valence Aware Dictionary and sEntiment Reasoner’. (Note: in the spelling ‘sEntiment’, first letter ‘s’ is a small letter and second letter ‘E’ is capital and it is correct). VADER is a lexicon and rule-based sentiment analysis tool. It is used to analyze the sentiment of a text. Lexicon is a list of lexical features (words) that are labeled with positive or negative based on the semantic meaning. Even an unlabelled text data can be labeled with VADER sentiment analyzer.
 
-Please visit the blog on [VADER](https://medium.com/analytics-vidhya/sentiment-analysis-with-vader-label-the-unlabeled-data-8dd785225166)
+Please visit the blog [VADER](https://medium.com/analytics-vidhya/sentiment-analysis-with-vader-label-the-unlabeled-data-8dd785225166)
 
 <h1>Sentiment Analysis</h1>
 **Sentiment Analysis** is about analyzing the sentiment of the text ie if the given text is *Positive* or *Negative* or even *Neutral*.<br>
@@ -18,8 +18,9 @@ You can refer to how one can apply condition and leverage the threshold score to
 <br>
 
 <h1>Deployment in AWS EC2 Instance</h1>
-This project is deployed in AWS EC2 Instance with *Free Tier*. You can test the performance of the project in the [Deployed Link](http://ec2-3-135-17-217.us-east-2.compute.amazonaws.com:8080/) <br>
-*Note: If the [Deployed Link](http://ec2-3-135-17-217.us-east-2.compute.amazonaws.com:8080/) is not working, that means I have stopped the EC2 Instance to not waste the *Free Tier*.
+This project is deployed in AWS EC2 Instance with *Free Tier*. You can test the performance of the project in the [Deployed Link](http://ec2-3-135-17-217.us-east-2.compute.amazonaws.com:8080/)
+<br>
+*Note: If the [Deployed Link](http://ec2-3-135-17-217.us-east-2.compute.amazonaws.com:8080/) is not working, that means I have stopped the EC2 Instance to not waste the Free Tier*.
 
 <br>
 * References for Deployment:
