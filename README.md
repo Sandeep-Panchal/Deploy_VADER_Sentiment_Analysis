@@ -2,13 +2,13 @@
 
 VADER stands for ‘Valence Aware Dictionary and sEntiment Reasoner’. (Note: in the spelling ‘sEntiment’, first letter ‘s’ is a small letter and second letter ‘E’ is capital and it is correct). VADER is a lexicon and rule-based sentiment analysis tool. It is used to analyze the sentiment of a text. Lexicon is a list of lexical features (words) that are labeled with positive or negative based on the semantic meaning. Even an unlabelled text data can be labeled with VADER sentiment analyzer.
 
-Please visit the blog [VADER](https://medium.com/analytics-vidhya/sentiment-analysis-with-vader-label-the-unlabeled-data-8dd785225166)
+Please visit the blog [Sentiment Analysis with VADER- Label the Unlabelled Data](https://medium.com/analytics-vidhya/sentiment-analysis-with-vader-label-the-unlabeled-data-8dd785225166)
 
 <br><br>
 # Sentiment Analysis
 - __Sentiment Analysis__ is about analyzing the sentiment of the text ie if the given text is _Positive_ or _Negative_ or even _Neutral_.
 - This repository is all about deployed project of the __VADER Sentiment Analysis__ which takes any contextual text as an input and outputs if the user entered text is _Positive_, _Negative_ or _Neutral_ based on the _Compound_ Score condition.
-- You can refer to how one can apply condition and leverage the threshold score to lable the text as _Positive_, _Negative_ or _Neutral_ from the blog
+- You can refer to how one can apply condition and leverage the threshold score to lable the text as _Positive_, _Negative_ or _Neutral_ from the blog [Sentiment Analysis with VADER- Label the Unlabelled Data](https://medium.com/analytics-vidhya/sentiment-analysis-with-vader-label-the-unlabeled-data-8dd785225166)
 
 <br><br>
 ### References for VADER:
