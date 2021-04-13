@@ -18,7 +18,7 @@ Please visit the blog [Sentiment Analysis with VADER- Label the Unlabelled Data]
 
 <br><br>
 # Deployment in AWS EC2 Instance
-- This project is deployed in AWS EC2 Instance with _Free Tier_. You can test the performance of the project in the [Deployed Link](http://ec2-3-135-17-217.us-east2.compute.amazonaws.com:8080/)
+- This project is deployed in AWS EC2 Instance with _Free Tier_. You can test the performance of the project in the [Deployed Link](http://ec2-3-135-17-217.us-east-2.compute.amazonaws.com:8080/)
 - _Note: If the [Deployed Link](http://ec2-3-135-17-217.us-east-2.compute.amazonaws.com:8080/) is not working, that means I have stopped the EC2 Instance to not waste the Free Tier_.
 
 <br><br>  
